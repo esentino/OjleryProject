@@ -1,4 +1,4 @@
-def sum_of_number(number_below: int):
+def sum_of_number(number_below: int)-> int:
     return sum([x for x in range(number_below) if x % 5 == 0 or x % 3 == 0])
 
 
